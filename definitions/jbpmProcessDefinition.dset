@@ -1,0 +1,33 @@
+{
+  "uuid": "jbpmProcessDefinition",
+  "name": "Process Definition",
+  "provider": "PROCESS_DEFINITIONS",
+  "isPublic": false,
+  "cacheEnabled": false,
+  "cacheMaxRows": 1000,
+  "pushEnabled": false,
+  "pushMaxSize": 1024,
+  "refreshAlways": false,
+  "columns": [
+    {
+      "id": "ProcessName",
+      "type": "label"
+    },
+    {
+      "id": "ProcessVersion",
+      "type": "label"
+    },
+    {
+      "id": "Project",
+      "type": "label"
+    },
+    {
+      "id": "ProcessDefId",
+      "type": "label"
+    },
+    {
+      "id": "Dynamic",
+      "type": "label"
+    }
+  ]
+}
